@@ -1,0 +1,19 @@
+# api
+fastapi==0.115.2
+uvicorn==0.31.1
+python-dotenv==1.0.1
+
+# data
+pydantic==2.9.2
+geopandas==1.0.1
+
+# database
+sqlalchemy==2.0.36 
+
+# other
+matplotlib==3.9.2 
+
+# tests
+pytest==7.3.1
+httpx==0.23.3
+
