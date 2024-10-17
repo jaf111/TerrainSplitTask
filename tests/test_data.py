@@ -1,4 +1,3 @@
-
 test_data_for_terrain_split = {
     "building_limits": {
         "type": "FeatureCollection",

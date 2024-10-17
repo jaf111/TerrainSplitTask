@@ -2,7 +2,7 @@ from unittest import TestCase
 from unittest.mock import MagicMock
 from geopandas import GeoDataFrame
 from pytest import raises
-from shapely import LineString, MultiPolygon
+from shapely import LineString
 from shapely.geometry import Polygon
 
 from app.models.exception_model import UncoveredAreaException, UnexpectedGeometryException
