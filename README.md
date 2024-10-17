@@ -52,6 +52,4 @@ The tests under `/tests/services` are more traditional unit tests.
 
 The datamodel is quiet simpel and we store relevant data and their relationship.
 
-## Deploy 
-Application is deployed to Azure
-https://terrainapp-e0b7f5d0c4dde4f6.northeurope-01.azurewebsites.net/
+![alt text](docs/image-2.png)
