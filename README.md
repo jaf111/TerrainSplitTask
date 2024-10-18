@@ -2,7 +2,7 @@
 
 ## Overview
 
-This FastAPI-based backend application is designed for processing geospatial data, specifically handling building limit polygons and height plateaus. It allows users to split building limits based on specified height criteria, offering an efficient way to manage geospatial information.
+This FastAPI-based backend application is designed for processing geospatial data, specifically handling building limit polygons and height plateaus. It allows users to split building limits based on specified height criteria, offering a simpel way to manage geospatial information.
 
 ## Prerequisites
 
