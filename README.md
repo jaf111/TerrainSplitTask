@@ -45,7 +45,7 @@ The tests under `/tests/services` are more traditional unit tests.
 - **Pydantic**: For data validation and settings management using Python type hints.
 - **GeoPandas**: Simplifies geospatial data manipulation and analysis.
 - **SQLAlchemy**: An ORM for database interaction.
-- **Testing Libraries**: `pytest` is the library used for testing unit and api testing.
+- **Testing Libraries**: Includes `pytest` for testing and `httpx` for making HTTP requests in tests.
 - **Matplotlib**: For creating static visualizations. Used to understand the datastructure
 
 ## Datamodel
