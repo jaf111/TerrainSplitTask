@@ -31,7 +31,7 @@ Once the application is running, you can access the interactive API documentatio
 
 ## Testing:
 
-Tests are found under `/tests` and have the same file structure as `/app`. \
+We use `pytest` library for testing. The tests can be found under `/tests` and have the same file structure as `/app`. \
 The tests under `/tests/routers` tests the entire api with an in-memory database.\
 The tests under `/tests/services` are more traditional unit tests.
 
@@ -45,11 +45,11 @@ The tests under `/tests/services` are more traditional unit tests.
 - **Pydantic**: For data validation and settings management using Python type hints.
 - **GeoPandas**: Simplifies geospatial data manipulation and analysis.
 - **SQLAlchemy**: An ORM for database interaction.
-- **Testing Libraries**: Includes `pytest` for testing and `httpx` for making HTTP requests in tests.
+- **Testing Libraries**: `pytest` is the library used for testing unit and api testing.
 - **Matplotlib**: For creating static visualizations. Used to understand the datastructure
 
 ## Datamodel
 
 The datamodel is quiet simpel and we store relevant data and their relationship.
 
-![alt text](docs/image-2.png)
+![alt text](docs/data_model.png)
