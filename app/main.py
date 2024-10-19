@@ -42,7 +42,7 @@ def create_app() -> FastAPI:
     app.include_router(health_router, prefix="/health", tags=["Status"])
     app.include_router(terrain_split_router, prefix="/terrain", tags=["Terrain"])
 
-    # setup database tables if they dont exitst. This should probably be improved at some point.
+    # setup database tables if they dont exitst. This should probably be improved at some point. 
     create_db()
 
     return app
