@@ -53,3 +53,9 @@ The tests under `/tests/services` are more traditional unit tests.
 The datamodel is quiet simpel and we store relevant data and their relationship.
 
 ![alt text](docs/data_model.png)
+
+## Deployment
+
+The app has been deployed to Azure.
+It can be found here: 
+https://terrainapp.azurewebsites.net/docs
