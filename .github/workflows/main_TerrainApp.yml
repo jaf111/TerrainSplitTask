@@ -62,4 +62,7 @@ jobs:
         with:
           app-name: 'terrainapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_96ebd0c7534d49c0a54ce36ba469d7e2 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+
+
+          
