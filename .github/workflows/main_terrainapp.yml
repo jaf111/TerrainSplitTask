@@ -63,6 +63,3 @@ jobs:
           app-name: 'terrainapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
-
-
-          

@@ -54,8 +54,11 @@ The datamodel is quiet simpel and we store relevant data and their relationship.
 
 ![alt text](docs/data_model.png)
 
-## Deployment
+## Deployment and CI/CD
 
-The app has been deployed to Azure.
-It can be found here: 
+The app is build, tested and deployed to Azure with GitHub Actions. 
+
+Pipeline: `.github/workflows/main_terrainapp.yml`
+
+The deployed app can be found here: 
 https://terrainapp.azurewebsites.net/docs
