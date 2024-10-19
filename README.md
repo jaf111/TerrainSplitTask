@@ -58,7 +58,7 @@ The datamodel is quiet simpel and we store relevant data and their relationship.
 
 The app is build, tested and deployed to Azure with GitHub Actions. 
 
-Pipeline: `.github/workflows/main_terrainapp.yml`
+Pipeline: `.github/workflows/main_terrainapp.yml` 
 
 The deployed app can be found here: 
 https://terrainapp.azurewebsites.net/docs
